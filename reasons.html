@@ -7,17 +7,31 @@
 </head>
 
 <style>
-	{box-sizing: border-box;}
+	{ box-sizing: border-box;
+}
 
-body
-	{margin:0;
-	font-family: calligraphy;
-	color: white;
-	background: linear-gradient(to right, #3b005c, #160019);
-	min-height: 100vh;
-	border-right: 50px solid pink;
-	border-left: 50px solid pink;
-	}
+body {
+    margin: 0;
+    font-family: calligraphy;
+    color: white;
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            to right,
+            rgba(59, 0, 92, 0.85),
+            rgba(22, 0, 25, 0.9)
+        ),
+        url("bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* Blends the image with the purple background */
+    background-blend-mode: multiply;
+}
 	
   /* TOP NAVIGATION */
 nav{backgroung: linear-gradient(to right,#5b087d,#2602f);
@@ -187,7 +201,6 @@ background-color: #35004d;
 <body>
 
 <!-- NAVIGATION -->
-
 <nav>
 
     <a href="index.html">🌷Home</a>
@@ -201,7 +214,6 @@ background-color: #35004d;
     <a href="reasons.html">🌷100Reasons</a>
 
 </nav>
-
 
     <h1>100 reasons why I love you</h1>
 

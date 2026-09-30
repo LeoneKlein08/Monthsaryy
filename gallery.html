@@ -7,17 +7,31 @@
 </head>
 
 <style>
-	{box-sizing: border-box;}
+	{ box-sizing: border-box;
+}
 
-body
-	{margin:0;
-	font-family: calligraphy;
-	color: white;
-	background: linear-gradient(to right, #3b005c, #160019);
-	min-height: 100vh;
-	border-right: 50px solid pink;
-	border-left: 50px solid pink;
-	}
+body {
+    margin: 0;
+    font-family: calligraphy;
+    color: white;
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            to right,
+            rgba(59, 0, 92, 0.85),
+            rgba(22, 0, 25, 0.9)
+        ),
+        url("bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* Blends the image with the purple background */
+    background-blend-mode: multiply;
+}
 	
 	
  /* TOP NAVIGATION */
@@ -99,7 +113,7 @@ font-size: 16px
     width: 250px;
     height: 250px;
     position: absolute;
-    top: 100px;
+    top: 20px;
     left: 325px;
     overflow: hidden;
     border-radius: 15px;
@@ -427,7 +441,7 @@ transform: translateX(-40px) scale(1.2);
 
 <nav>
 
-    <a href="index.html">🌷Home</a>
+    <a href="home.html">🌷Home</a>
 
     <a href="memories.html">🌷Memories</a>
 
